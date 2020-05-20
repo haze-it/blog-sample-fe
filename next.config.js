@@ -1,6 +1,6 @@
 module.exports = {
   env: {
-    API_URL: 'http://localhost:13001/api/v1'
+    API_URL: process.env.API_URL
   },
   devIndicators: {
     autoPrerender: false,
