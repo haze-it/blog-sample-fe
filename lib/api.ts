@@ -56,6 +56,5 @@ function create_request_header(request_params: RequestParams): Object {
 
   if (request_params.token) request_header = {...request_header, ...{ 'Authorization': `Bearer ${request_params.token}` }}
 
-  console.log('params: ', request_header)
   return request_header
 }

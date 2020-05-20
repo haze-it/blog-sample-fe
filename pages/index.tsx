@@ -2,6 +2,7 @@ import Head from 'next/head'
 import styles from '../styles/index.module.scss'
 
 import LoginButton from '../components/login_button';
+import SignupButton from '../components/signup_button';
 
 export default function Home() {
   return (
@@ -17,7 +18,10 @@ export default function Home() {
             ブログ用のサンプルだよ
           </div>
         </main>
-        <LoginButton />
+        <div className={styles.buttons}>
+          <SignupButton />
+          <LoginButton />
+        </div>
       </div>
     </>
   )

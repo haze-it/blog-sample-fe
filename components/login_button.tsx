@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import styles from '../styles/Login_button.module.scss';
+import styles from '../styles/login_button.module.scss';
 
 type Props = {}
 
